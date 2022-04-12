@@ -1,11 +1,48 @@
 body{
-    background-color: #fcd5ce;
+    background-color:#ede0d4 ;
+    font-family: "Poppins", serif;
 }
-.social{
-    color: white;
-    background-color: #fec89a;
-    width: 30%;
+.hero{
     text-align: center;
-    margin: 0 auto;
+    padding: 160px 20px;
+    background-color: #ede0d4;
+}
+h1,h2,h3,h4,h5,h6{
+
+
+    color:rgb(176, 136, 104) ;
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+}
+h2{
+
+    font-weight: normal;
+    line-height: 2;
+    font-size: 29px;
+  
+}
+
+h1{
+    font-size: 96px;
+}
+.fred{
+    font-size: 15px;
+}
+.hero p {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+    color: rgba(156, 102, 68, 0.396)
+}
+
+.btn-branding {
+    background:#7f5539;
     border-radius: 4px;
+    color: white;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px 30px;
+   box-shadow: 9px 2px 13px -2px rgba(156,102,68,0.55);
+-webkit-box-shadow: 9px 2px 13px -2px rgba(156,102,68,0.55);
+-moz-box-shadow: 9px 2px 13px -2px rgba(156,102,68,0.55);
 }
