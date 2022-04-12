@@ -1,0 +1,11 @@
+body{
+    background-color: #fcd5ce;
+}
+.social{
+    color: white;
+    background-color: #fec89a;
+    width: 30%;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 4px;
+}
