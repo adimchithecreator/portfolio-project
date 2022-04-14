@@ -79,6 +79,15 @@ p {
 .weather-pic{
     padding-top: 150px !important;
 }
+.landing{
+    padding-top: 150px !important; 
+    width: 200em!important; 
+    padding-left: 30px !important;
+}
+a:hover{
+    color: white !important;
+    background-color: #7f5539;
+}
 
 @media (max-width: 900px) {
   h1 {
