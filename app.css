@@ -107,4 +107,7 @@ a:hover{
     padding: 0;
     text-align: center;
   }
+  img .virtual{
+width: fit-content;
+  }
 }
