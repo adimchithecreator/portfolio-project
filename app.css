@@ -84,6 +84,10 @@ p {
     width: 200em!important; 
     padding-left: 30px !important;
 }
+.contact-page a{
+  text-decoration: none;
+  color: white;
+}
 a:hover{
     color: white !important;
     background-color: #7f5539;
@@ -148,4 +152,10 @@ a:hover{
   border: 1px solid #947E5B;
   border-radius: 9px;
 
+}
+.content .contact{
+  border: none !important;
+}
+.contact-page{
+  background-color: #947E5B;
 }
