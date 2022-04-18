@@ -38,7 +38,7 @@ p {
 .hero {
   background: #ede0d4;
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 
 .hero p {
@@ -88,10 +88,6 @@ p {
     width: 200em!important; 
     padding-left: 30px !important;
 }
-.contact-page a{
-  text-decoration: none;
-  color: white;
-}
 a:hover{
     color: white !important;
     background-color: #7f5539;
@@ -108,7 +104,7 @@ a:hover{
   }
 
   .hero {
-    padding: 80px 20px;
+    padding: 60px 20px;
   }
 
   .project-desciption {
@@ -118,11 +114,12 @@ a:hover{
   nav{
     font-size: 10px;
   }
-  .content .contact{
-    font-size: 35px;
-  }
+ 
   .nav-name{
     font-size: 13px;
+  }
+  footer .email-link{
+    font-size: 13px !important; 
   }
 }
 .about-section-content {
@@ -155,22 +152,25 @@ a:hover{
   border: 1px solid rgb(229, 88, 12);
 }
 .btn-about:hover{
-  color: rgb(229, 88, 12) !important;
+  color: #e5580c !important;
   background-color: white;
 }
 .content h1{
   font-size: 50px;
-  margin-top: 90px !important;
-  border: 1px solid #947E5B;
+  margin-top: 50px !important;
+
   border-radius: 9px;
+  background-color: var(--branding-color);
+  color:white;
 
 }
-.content .contact{
-  border: none !important;
+.about-me .social-links{
+  color: #e5580c !important;
 }
-.contact-page{
-  background-color: #947E5B;
+.about-footer{
+  background-color: #FEE3C3 !important;
 }
+
 
 .nav-name{
   padding-top: 10px;
@@ -219,10 +219,15 @@ footer .email-link {
   text-decoration: none;
   color: black;
   font-size: 24px;
+  padding-top: 15px;
 }
-
-footer .email-link:hover {
+footer .email-link:hover{
   color: var(--branding-color);
+  background-color: var(--secondary-color);
+}
+.about-me .email-link:hover {
+  color: rgb(229, 88, 12) !important;
+  background-color: #FEE3C3 !important;
 }
 
 footer .social-links a {
