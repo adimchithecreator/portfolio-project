@@ -220,3 +220,6 @@ footer .social-links a:hover {
   color: white;
   background: var(--branding-color);
 }
+.contact-box p{
+  font-size: 12px;
+}
