@@ -111,6 +111,12 @@ a:hover{
     padding: 0;
     text-align: center;
   }
+  nav{
+    font-size: 10px;
+  }
+  .content .contact{
+    font-size: 35px;
+  }
   
 }
 .about-section-content {
@@ -158,4 +164,33 @@ a:hover{
 }
 .contact-page{
   background-color: #947E5B;
+}
+
+.nav-name{
+  padding-top: 10px;
+}
+nav ul {
+  padding: 5px 0px 0px 0px;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
+}
+.nav-name{
+  color: var(--branding-color);
 }
