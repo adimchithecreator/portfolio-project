@@ -117,7 +117,9 @@ a:hover{
   .content .contact{
     font-size: 35px;
   }
-  
+  .nav-name{
+    font-size: 13px;
+  }
 }
 .about-section-content {
   padding: 50px 20px;
