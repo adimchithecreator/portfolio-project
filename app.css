@@ -94,10 +94,10 @@ p {
     width: 200em!important; 
     padding-left: 30px !important;
 }
-a:hover{
+/* a:hover{
     color: white !important;
     background-color: #7f5539;
-}
+} */
 
 @media (max-width: 900px) {
   h1 {
@@ -183,8 +183,7 @@ color: black;
 }
 
 nav a:hover,
-nav li.active a {
- 
+nav a:active {
  color: white;
 }
 
