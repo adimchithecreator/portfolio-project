@@ -9,6 +9,10 @@ body {
   font-family: var(--default-font-family);
 }
 
+.cont{
+  background-color: var(--branding-color);
+  padding: 3px 9em;
+}
 h1,
 h2,
 h3,
@@ -34,6 +38,7 @@ p {
   font-size: 16px;
   line-height: 30px;
 }
+
 
 .hero {
   background: #ede0d4;
@@ -80,6 +85,7 @@ p {
 .project-desciption {
   padding: 120px 60px;
 }
+
 .weather-pic{
     padding-top: 150px !important;
 }
@@ -168,18 +174,16 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: #272142;
+color: black;
   transition: all 100ms ease-in-out;
 }
 
 nav a:hover,
 nav li.active a {
-  color: var(--branding-color) !important;
-  background-color: white !important;
+ 
+ color: white;
 }
-.nav-name{
-  color: var(--branding-color);
-}
+
 footer {
   margin: 60px 0;
 }
