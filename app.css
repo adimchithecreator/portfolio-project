@@ -117,11 +117,14 @@ a:hover{
     padding: 0;
     text-align: center;
   }
+
   nav{
     font-size: 10px;
-    padding: 0px;
+   
   }
- 
+ .cont{
+    padding: 0px !important;
+ }
   .nav-name{
     font-size: 13px;
   }
